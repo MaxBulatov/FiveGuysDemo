@@ -1,0 +1,172 @@
+html,body {
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+    scroll-behavior: smooth;
+}
+
+#imgC{
+    text-align: center;
+}
+
+#imgC img{
+    height: 650px;
+    width: 1540px;
+}
+
+h2{
+    font-weight: bold;
+}
+
+#imgT p{
+    width: 500px;
+    text-align: left;
+    line-height: 120%;
+
+}
+#imgT{
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    color: white;
+    font-size: 1em;
+    line-height: 80%;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+#menu2{
+    width: 800px;
+    /* height: 400px; */
+    /* background-color: red; */
+    margin: auto;
+    width: 50%;
+}
+#allergins{
+    text-align: center;
+}
+
+#Menu{
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+#content{
+    display: flex;
+    width: 800x;
+    flex-direction: column;
+}
+#menuC{
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+}
+
+#menuC li{
+    list-style: none;
+}
+
+#Burgers{
+    padding-left: 100px;
+}
+
+#Menu a{
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: black;
+}
+
+#Menu li{
+    padding-right: 30px;
+    margin: 10px 0;
+}
+
+/* #mainToppings{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+} */
+
+#toppings{
+    text-align: center;
+}
+
+#toppings ul{
+    margin: 0%;
+    margin-bottom: 10px;
+    
+}
+
+#toppings li{
+    display: inline;
+    
+}
+
+#toppings p{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.dot {
+    height: 5px;
+    width: 5px;
+    margin-right: 4px;
+    margin-bottom: 3px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#fries{
+    padding-top: 20px;
+    text-align: center;
+}
+
+#fries li{
+    list-style: none;
+}
+
+#fries ul{
+    padding-right: 40px;
+}
+
+#milkshakes{
+    padding-top: 20px;
+    text-align: center;
+}
+
+#milkshakes h4{
+    width: 450px;
+    margin: auto;
+    width: 50%;
+}
+
+#drinks{
+    padding-top: 20px;
+    text-align: center;
+}
+
+#ourStory{
+    height: 100px;
+    background-color: red;
+    text-align: center;
+}
+
+#ourStory button{
+    position: relative;
+    top: 25%;
+    height: 40px;
+    width: 150px;
+    background-color: white;
+}

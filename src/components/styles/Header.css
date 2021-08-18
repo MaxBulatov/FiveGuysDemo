@@ -1,0 +1,29 @@
+#headerMain{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    background-color: white(238, 30, 30);
+}
+
+#headerMain h2{
+    color: rgb(199, 10, 10);
+    text-decoration: none;
+}
+
+#nav-links{
+    display: flex;
+    justify-content: center;
+    padding-top: 8px;
+}
+
+#nav-links a{
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: black;
+}
+
+#nav-links li{
+    padding-right: 30px;
+    list-style: none;
+}
